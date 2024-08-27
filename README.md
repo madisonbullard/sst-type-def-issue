@@ -1,4 +1,5 @@
 ## SST does not generate `sst-env.d.ts` for `packages/auth`
+- Make sure your AWS CLI credentials are configured to allow access
 - `pnpm install`
 - `pnpm sst install`
 - Observe that an `sst-env.d.ts` file is generated correctly for `packages/frontend`

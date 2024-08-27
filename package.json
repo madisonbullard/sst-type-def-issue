@@ -1,0 +1,19 @@
+{
+  "name": "sst-demo",
+  "version": "0.0.0",
+  "private": true,
+	"type": "module",
+  "scripts": {
+    "check": "pnpm biome check --write ./",
+    "dev": "sst dev"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@tsconfig/node20": "20.1.4",
+    "@types/aws-lambda": "8.10.143",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "sst": "3.0.70"
+  }
+}

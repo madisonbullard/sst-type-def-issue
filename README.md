@@ -1,4 +1,5 @@
 ## SST does not generate `sst-env.d.ts` for `packages/auth`
+> Issue filed [here](https://github.com/sst/ion/issues/945)
 - Make sure your AWS CLI credentials are configured to allow access
 - `pnpm install`
 - `pnpm sst install`
